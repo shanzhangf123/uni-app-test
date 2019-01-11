@@ -1,0 +1,22 @@
+<import src="/components/m-input.vue.wxml" />
+<template name="535f6ad0">
+  <view class="_view data-v-654b54ae content">
+    <view class="_view data-v-654b54ae input-group">
+      <view class="_view data-v-654b54ae input-row border">
+        <text class="_text data-v-654b54ae title">账号：</text>
+        <template type="text" focus clearable value="{{account}}" bindchange="handleProxy" placeholder="请输入账号" data-eventid="{{'4gM-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'LCY-0'],$root}}" is="b5683fd2"></template>
+      </view>
+      <view class="_view data-v-654b54ae input-row border">
+        <text class="_text data-v-654b54ae title">密码：</text>
+        <template type="password" displayable value="{{password}}" bindchange="handleProxy" placeholder="请输入密码" data-eventid="{{'O23-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'KKr-1'],$root}}" is="b5683fd2"></template>
+      </view>
+      <view class="_view data-v-654b54ae input-row">
+        <text class="_text data-v-654b54ae title">邮箱：</text>
+        <template type="text" clearable value="{{email}}" bindchange="handleProxy" placeholder="请输入邮箱" data-eventid="{{'Dkv-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'jnC-2'],$root}}" is="b5683fd2"></template>
+      </view>
+    </view>
+    <view class="_view data-v-654b54ae btn-row">
+      <button type="primary" class="_button data-v-654b54ae primary" bindtap="handleProxy" data-eventid="{{'aLS-3'}}" data-comkey="{{$k}}">注册</button>
+    </view>
+  </view>
+</template>

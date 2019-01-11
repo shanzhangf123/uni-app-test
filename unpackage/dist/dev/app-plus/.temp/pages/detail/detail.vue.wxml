@@ -1,0 +1,16 @@
+<template name="fb92b4e4">
+  <view class="_view data-v-1cd34042">
+    <view class="_view data-v-1cd34042 banner">
+      <image class="_image data-v-1cd34042 banner-img" src="{{banner.image_url}}"></image>
+      <view class="_view data-v-1cd34042 banner-title">{{banner.title}}</view>
+    </view>
+    <view class="_view data-v-1cd34042 article-meta">
+      <text class="_text data-v-1cd34042 article-author">{{banner.source}}</text>
+      <text class="_text data-v-1cd34042 article-text">发表于</text>
+      <text class="_text data-v-1cd34042 article-time">{{banner.published_at}}</text>
+    </view>
+    <view class="_view data-v-1cd34042 article-content">
+      <rich-text nodes="{{content}}" class="_rich-text data-v-1cd34042"></rich-text>
+    </view>
+  </view>
+</template>

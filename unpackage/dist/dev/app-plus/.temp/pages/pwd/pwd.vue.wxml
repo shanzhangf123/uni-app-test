@@ -1,0 +1,14 @@
+<import src="/components/m-input.vue.wxml" />
+<template name="5cb7eb2c">
+  <view class="_view data-v-6ea3d50a content">
+    <view class="_view data-v-6ea3d50a input-group">
+      <view class="_view data-v-6ea3d50a input-row">
+        <text class="_text data-v-6ea3d50a title">邮箱：</text>
+        <template type="text" focus clearable value="{{email}}" bindchange="handleProxy" placeholder="请输入邮箱" data-eventid="{{'Q8R-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Wqy-0'],$root}}" is="b5683fd2"></template>
+      </view>
+    </view>
+    <view class="_view data-v-6ea3d50a btn-row">
+      <button type="primary" class="_button data-v-6ea3d50a primary" bindtap="handleProxy" data-eventid="{{'Rrp-1'}}" data-comkey="{{$k}}">提交</button>
+    </view>
+  </view>
+</template>

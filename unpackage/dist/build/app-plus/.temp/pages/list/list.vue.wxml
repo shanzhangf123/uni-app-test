@@ -1,0 +1,17 @@
+<import src="/pages/list/list-block.vue.wxml" />
+<template name="73a39ea4">
+  <view class="_view data-v-22e1bb7f uni-tab-bar">
+    <scroll-view id="tab-bar" class="_scroll-view data-v-22e1bb7f uni-swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
+      <view wx:key="tab.ref" key="{{tab.ref}}" id="{{tab.ref}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'jjn-0-'+index}}" data-comkey="{{$k}}" wx:for="{{tabBars}}" wx:for-index="index" wx:for-item="tab" class="_view data-v-22e1bb7f {{['swiper-tab-list', tabIndex == index ? 'active' : '']}}">{{tab.name}}</view>
+    </scroll-view>
+    <swiper current="{{tabIndex}}" class="_swiper data-v-22e1bb7f swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'bLY-3'}}" data-comkey="{{$k}}">
+      <swiper-item wx:key="tabIndex" key="{{tabIndex}}" wx:for="{{newsList}}" wx:for-index="tabIndex" wx:for-item="tabItem" class="_swiper-item data-v-22e1bb7f">
+        <scroll-view class="_scroll-view data-v-22e1bb7f list" scroll-y bindscrolltolower="handleProxy" data-eventid="{{'SHu-2-'+tabIndex}}" data-comkey="{{$k}}">
+          <block wx:key="newsIndex" key="{{newsIndex}}" wx:for="{{tabItem.data}}" wx:for-index="newsIndex" wx:for-item="newsItem">
+            <template bindgoDetail="handleProxy" data-eventid="{{'U3L-1-'+tabIndex+'-'+newsIndex}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'q7A-0-'+tabIndex+'-'+newsIndex],$root}}" is="cabb3ea4"></template>
+          </block>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
+  </view>
+</template>

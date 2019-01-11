@@ -1,0 +1,13 @@
+<template name="cabb3ea4">
+  <view class="_view data-v-9e066a82 view-list" bindtap="handleProxy" data-eventid="{{'j26-0'}}" data-comkey="{{$k}}">
+    <view class="_view data-v-9e066a82 view-block">
+      <image class="_image data-v-9e066a82 img-section" src="{{newsItem.image_url}}"></image>
+      <text class="_text data-v-9e066a82 list-title">{{newsItem.title}}</text>
+    </view>
+    <view class="_view data-v-9e066a82">
+      <text class="_text data-v-9e066a82 info-text">{{newsItem.source}}</text>
+      <text class="_text data-v-9e066a82 info-text">{{newsItem.comment_count}}条评论</text>
+      <text class="_text data-v-9e066a82 info-text">{{newsItem.published_at}}</text>
+    </view>
+  </view>
+</template>
